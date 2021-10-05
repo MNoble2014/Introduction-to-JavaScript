@@ -19,8 +19,10 @@ Do the following:
 
    HINT: no function required
 */
-
-
+const votingAge = 18;
+  if(votingAge >= 18) 
+    console.log('task 1a', true);
+  
 
 /*
 Task 1b - Values
@@ -32,10 +34,12 @@ Do the following:
 
    HINT: no function required
 */
-
-
-
-
+let blanket = 'blue';
+let material = 'soft';
+if(material === 'soft') {
+  blanket = 'red';
+}
+console.log('task 1b', blanket);
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -47,7 +51,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+const address = '1999';
+console.log('task 1c', Number(address));
 
 
 
@@ -60,9 +65,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  return a * b;
 }
+console.log('task 1d', multiply(2, 4));
 
 
 
